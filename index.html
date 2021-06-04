@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="assets/null.css">
+	<title>Vita Prime</title>
+</head>
+
+<body>
+	<div class="page">
+		<main>
+			<header class="header">
+				<div class="container">
+					<div class="menu__container">
+						<div class="menu__icon"> <span></span> </div>
+						<nav class="nav">
+							<!--******** логическая последовательность по странице ********-->
+							<ul class="nav__list">
+								<li class="nav__list-item"> <a href="#counter" class="nav__item-link twostring">КАЛЬКУЛЯТОР ГОДУВАННЯ</a> </li>
+								<li class="nav__list-item"> <a href="#offer__section" class="nav__item-link">Про VITAPRIM</a> </li>
+								<li class="nav__list-item"> <a href="#shop" class="nav__item-link">КУПИТИ</a> </li>
+								<li class="nav__list-item"> <a href="#how__to" class="nav__item-link twostring">Як приготувати VITAPRIM</a> </li>
+							</ul>
+							<!--******** логическая последовательность по странице ********-->
+							<!-- <ul class="nav__list">
+								<li class="nav__list-item"> <a href="#shop" class="nav__item-link">КУПИТИ</a> </li>
+								<li class="nav__list-item"> <a href="#offer__section" class="nav__item-link">Про VITAPRIM</a> </li>
+								<li class="nav__list-item"> <a href="#how__to" class="nav__item-link twostring">Як приготувати VITAPRIM</a> </li>
+								<li class="nav__list-item"> <a href="#counter" class="nav__item-link twostring">КАЛЬКУЛЯТОР ГОДУВАННЯ</a> </li>
+							</ul> -->
+						</nav>
+					</div>
+					<div class="header__items">
+						<div class="top__kid"><img src="img/topkid.png" alt="kid"></div>
+						<div class="nav__txt">
+							<p>Єдине ДИТЯЧЕ ХАРЧУВАННЯ
+								<br> З молозивом
+								<br> та лактоферином</p>
+						</div>
+						<div class="header__logo">
+							<a class="header__logo-link" href="#first__section"> <img src="img/logo.png" alt="Vita prime" class="header__logo-img"> </a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="first__section" id="first__section">
+				<div class="container">
+					<p class="first__section-txt">Єдине ДИТЯЧЕ ХАРЧУВАННЯ
+						<br> З молозивом
+						<br> та лактоферином</p> <img id="counter" src="img/plane.png" alt="Наши продукты в самолете" class="first__section-img">
+					<h1 class="section__title">калькулятор годування</h1>
+					<div class="counter" >
+						<div id="calc" class="value">1 тиждень</div>
+						<div class="age"> <span>0 днiв</span><span>6 мiс.</span><span>12 мiс.</span> <span>.....</span></div>
+						<input type="range" min="0" max="17" step="1" value="0" id="fader"> </div>
+					<div class="fader__products"> <img src="img/VitaPrim-pitanie-1.png" alt="Vita Prim 1"> <img src="img/VitaPrim-pitanie-2.png" alt="Vita Prim 2"> <img src="img/VitaPrim-pitanie-3.png" alt="Vita Prim 3"> </div>
+				</div>
+			</section>
+			<section class="counter__value">
+				<div class="container">
+					<div class="wrapper">
+						<div class="product"> <img id="vita1" src="img/VitaPrim-pitanie-1.png" alt="Vita Prim 1"> <img id="vita2" src="img/VitaPrim-pitanie-2.png" alt="Vita Prim 2"> <img id="vita3" src="img/VitaPrim-pitanie-3.png" alt="Vita Prim 3"> </div>
+						<div class="tabs">
+							<div class="tab">
+								<h3 class="value__name">Вік дитини</h3>
+								<div class="value" id="years">0</div>
+							</div>
+							<div class="tab">
+								<h3 class="value__name">Кількість годувань на добу</h3>
+								<div class="value" id="feedings">0</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab">
+						<h3 class="value__name">Кількість на одне годування</h3>
+						<div class="value__wrapper">
+							<div class="tab__item">
+								<h4 class="valeu__subname">Прокип’ячена вода, мл</h4>
+								<div class="value" id="water">0</div>
+							</div>
+							<div class="tab__item" id="offer__section">
+								<h4 class="valeu__subname">Кількість мірних ложок порошку</h4>
+								<div class="value" id="spoons">0</div>
+							</div>
+						</div>
+					</div> <a href="#" class="btn">купити</a> </div>
+			</section>
+			<section class="offer__section" >
+				<div class="container">
+					<div class="offer">
+						<h3 class="offer__title"><span>ЧОМУ МАМИ ОБИРАЮТЬ АДАПТОВАНІ МОЛОЧНІ СУМІШІ VITAPRIM?</span></h3>
+						<p class="offer__txt">Бо вони спеціально розроблені для кожного етапу розвитку дитини!</p>
+					</div>
+					<div class="descrip">
+						<div class="descrip__title">
+							<p>Унікальний склад: <span>МОЛОЗИВО, ЛАКТОФЕРИН, БІФІДОБАКТЕРІЇ, ПОЛІНЕНАСИЧЕНІ ЖИРНІ КИСЛОТИ, ВІТАМІНИ</span> та <span>МІНЕРАЛИ</span></p>
+						</div>
+						<div class="descrip__txt">
+							<p>Здоровий ріст, подібний до росту немовлят при грудному вигодовуванні</p>
+						</div>
+					</div>
+					<div class="descrip">
+						<div class="descrip__title">
+							<p><span> ЛАКТОФЕРИН + БІФІДОБАКТЕРІЇ ВВ-12 </span></p>
+						</div>
+						<div class="descrip__txt">
+							<p>Збалансована мікрофлора кишечника, підтримка здорового травлення та імунної системи малюка </p>
+						</div>
+					</div>
+					<div class="descrip">
+						<div class="descrip__title">
+							<p>Поліненасичені жирні кислоти ОМЕГА-3-6</p>
+						</div>
+						<div class="descrip__txt">
+							<p>Здоровий розвиток мозку та зору</p>
+						</div>
+					</div>
+					<div class="descrip">
+						<div class="descrip__title">
+							<p><span>ЛАКТОФЕРИН</span> збалансовує метаболізм заліза</p>
+						</div>
+						<div class="descrip__txt">
+							<p>Залізо необхідно малюкам для гемоглобіну, особливо під час швидкого росту та збільшення об'єму циркулюючої крові </p>
+						</div>
+					</div>
+					<div class="warning">
+						<div class="kid__img"><img src="img/kid2.png" alt="kid"></div>
+						<div class="txt__wrapper">
+							<p class="warning__txt"><span>ЗВЕРНІТЬ УВАГУ</span>, що переходити з однієї суміші на другу краще поступово, протягом 3-х днів!</p>
+							<p class="warning__txt">- Необхідно збільшувати кожний день кількість нової суміші в кожне годування і зменшувати кількість попередньої.</p>
+							<p class="warning__txt" id="shop">- Чим доросліше стає Ваш малюк, тим суміші стають більш ситнішими, змінюється склад білку, збільшується кількість важливих мінералів та мікроелементів, особливо кальцію та заліза.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="shop">
+				<div class="container">
+					<div class="shop__title">
+						<h2 class="section__title">ЯК ОБРАТИ ТА ПРИГОТУВАТИ СУМІШ ЗА ВІКОМ МАЛЮКА</h2> </div>
+					<div class="shop__wrapper">
+						<div class="card">
+							<div class="card__wrapper blue">
+								<div class="card__top blue">
+									<h4 class="card__title">ВІД <br> 0 ДО 6<br> МІС</h4> </div> <img src="img/VitaPrim-pitanie-1.png" alt="Vita Prim 1" class="card__img"> <a id="about1" class="card__btn">детальніше</a> </div> <a href="" class="buy__btn blue">купити</a> </div>
+						<div class="card">
+							<div class="card__wrapper pink">
+								<div class="card__top pink">
+									<h4 class="card__title">ВІД<br> 6 ДО 12 <br>МІС
+									</h4> </div> <img src="img/VitaPrim-pitanie-2.png" alt="Vita Prim 2" class="card__img"> <a id="about2" class="card__btn">детальніше</a> </div> <a href="" class="buy__btn pink">купити</a> </div>
+						<div class="card">
+							<div class="card__wrapper green">
+								<div class="card__top green">
+									<h4 class="card__title">ВІД<br> 1 <br>РОКУ</h4> </div> <img src="img/VitaPrim-pitanie-3.png" alt="Vita Prim 3" class="card__img"> <a id="about3" class="card__btn">детальніше</a> </div> <a  class="buy__btn green">купити</a> </div>
+					</div>
+				</div>
+			</section>
+			<section class="instruction">
+				<div class="container">
+					<div class="instruction__txt">
+						<h2>Молочна суміш VITAPRIM 1 для дитини віком від 0 до 6 міс.</h2>
+						<p>Суміш слід готувати безпосередньо перед кожним годуванням. </p>
+						<p>Точно дотримуйтесь інструкції.</p>
+					</div>
+					<div class="instruction__wrapper" id="how__to"> <img src="img/notebook.png" alt="notepad top">
+						<table class="table1" id="first">
+							<tr>
+								<th rowspan="2" colspan="1" class="first">Вік дитини</th>
+								<th colspan="2">Кількість на одне годування</th>
+								<th rowspan="2">Кількість годувань на добу</th>
+							</tr>
+							<tr>
+								<td class="first">Прокип’ячена вода, мл.</td>
+								<td class="first">Кількість мірних ложок порошку</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">1 тиж.</td>
+								<td>60</td>
+								<td>2</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">2 тиж.</td>
+								<td>90</td>
+								<td>3</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">3-4 тиж.</td>
+								<td>120</td>
+								<td>4</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">2 міс.</td>
+								<td>150</td>
+								<td>5</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">3 міс.</td>
+								<td>180</td>
+								<td>6</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">4 міс.</td>
+								<td>210</td>
+								<td>7</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">5 міс.</td>
+								<td>210</td>
+								<td>7</td>
+								<td>4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">6 міс.</td>
+								<td>210</td>
+								<td>7</td>
+								<td>4</td>
+							</tr>
+						</table>
+						<table class="table2" id="second">
+							<tr>
+								<th rowspan="2" colspan="1" class="first">Вік дитини</th>
+								<th colspan="2">Кількість на одне годування</th>
+								<th rowspan="2">Кількість годувань на добу</th>
+							</tr>
+							<tr>
+								<td class="first">Прокип’ячена вода, мл.</td>
+								<td class="first">Кількість мірних ложок порошку</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">6 міс.</td>
+								<td>210</td>
+								<td>7</td>
+								<td>4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">7-9 міс.</td>
+								<td>210</td>
+								<td>7</td>
+								<td>3-4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">З 9-го місяця</td>
+								<td>210</td>
+								<td>7</td>
+								<td>2-3</td>
+							</tr>
+						</table>
+						<table class="table3" id="third">
+							<tr>
+								<th rowspan="2" colspan="1" class="first">Вік дитини</th>
+								<th colspan="2">Кількість на одне годування</th>
+								<th rowspan="2">Кількість годувань на добу</th>
+							</tr>
+							<tr>
+								<td class="first">Прокип’ячена вода, мл.</td>
+								<td class="first">Кількість мірних ложок порошку</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">Більше 1 року</td>
+								<td>150</td>
+								<td>5</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">Більше 1 року</td>
+								<td>180</td>
+								<td>6</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" class="first">Більше 1 року</td>
+								<td>210</td>
+								<td>7</td>
+								<td>2</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section class="how__to" >
+				<div class="container">
+					<div class="how__to-wrapper">
+						<div class="bg">
+							<svg class="vector1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.89 1705.45">
+								<g data-name="Слой 2">
+									<path d="M66.24 3.45s84.63-20.64 123.67 72.4-77.1 241.63-46.31 388.69c0 0 75.7 12.29 63.45 149.17s-102.33 405.48-39.44 528.4c58.16 113.68-24.16 135.77 14.93 338.87C213.05 1639.53 146 1686.6 146 1686.6s-69.48 39-145.31 0" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3" data-name="Шар 1" /> </g>
+							</svg>
+							<svg class="vector2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406.31 1006.39">
+								<g data-name="Слой 2">
+									<path d="M1401.13 18.17c-56.66 52.36-142.64 72.16-216.36 48.14a134.46 134.46 0 01-38.3-19.31c-10.87-8-20.61-17.43-32-24.78-34.84-22.57-82.07-25.13-122.08-20-43.8 5.6-88.26 23-116.22 58.58-25.64 32.72-36.59 79.86-27.17 120.38 9.52 40.79 43.24 71 58 109.62 7.52 19.75 11.62 44.57 7.26 65.44-4.71 22.51-23.24 42-44.18 50.87-34.22 14.51-68.07-7.87-96.65-24.77-20-11.86-40.62-22.45-64.29-15.66-20.63 5.92-32.9 23.39-31 44.89 1.53 17.28 9.58 33.66 18.51 48.25 4.84 7.92 9.51 15.39 16.31 21.57a380.72 380.72 0 0141.17 43.81c16.72 20.93 32.52 45 38 71.65 5.53 26.86-4.64 52.52-27.73 67.77-17.09 11.29-38.86 14.54-58.87 16-28.44 2.12-57.14.34-85.49-2.34-35-3.31-69.78-8.37-104.49-13.76-75.55-11.7-150.76-25.45-226.71-34.14-35-4-70.14-7-105.35-7.26-34.05-.27-69.87.75-102 13.18-27.18 10.53-50.49 29.22-64.7 54.87C4.92 712.57-.46 737.36 0 761.75c.82 40.47 19.27 79.94 47 108.89 27 28.15 61.38 48.67 96.3 65.37a604.26 604.26 0 0095.47 35.75c67.18 19.11 137 28.87 206.6 32.75a1233 1233 0 00222.5-7.85c69.35-8.76 138.36-23.19 204.39-46.38 55.24-19.39 109.8-45 155.13-82.57 19.11-15.85 36.37-34 50-54.82 11.7-17.81 24.14-35 39.64-49.76 40.85-38.84 96.26-52 151.27-53.19 44.22-1 88.39 4.75 131.78 12.81 3.77.71 5.39-5.08 1.59-5.78-72.07-13.4-153-23.56-223.7 1.95-42.83 15.44-75.14 45.31-100.27 82.59-13.72 20.35-28.29 38.84-46.73 55.22-20.62 18.31-43.74 33.67-67.84 47-56.6 31.29-118.89 51.84-181.66 66.61-71.24 16.77-144.26 25.94-217.34 29-73.26 3-147 0-219.55-11-66.86-10.14-133.38-26.92-194.77-55.75-55-25.85-112.7-62.67-134.14-122.65C.92 768.38 2.45 721.16 28.28 684.07c40.18-57.69 119.1-57 182.09-54.23 74.78 3.33 149 15.52 222.77 27.49 69.43 11.27 139.08 24 209.35 28.81 26.26 1.78 52.91 2.48 79-1.2 19.81-2.79 39.36-8.46 54.64-21.9 44.81-39.38 15.67-98.73-14.08-137.33a377.86 377.86 0 00-42.55-46.41 72.26 72.26 0 01-12.36-14.18c-10.74-16-21.51-34.55-23.09-54.21-1.82-22.64 14-37.92 35.73-40.22 27-2.86 50.57 17.56 72.85 29.83 29.77 16.4 63.38 25.52 93.48 4.45 16.94-11.86 30.6-28.47 34.29-49.2 3.55-19.95.21-42.18-5.84-61.36-12.39-39.28-45-68.74-57.8-107.82-13.76-42.07-.23-95.35 29-128 32.57-36.33 83.51-51 130.94-52.27 23.68-.62 48.26 1.66 70.76 9.42 14.51 5 27.06 13.1 38.87 22.77 10.14 8.32 20.12 16.77 31.74 23a164.61 164.61 0 0040.8 14.91c34.35 7.94 70.72 7.42 105-.51a223.54 223.54 0 00101.42-53.54c2.85-2.63-1.41-6.86-4.24-4.24z" fill="#fff" data-name="Шар 1" /> </g>
+							</svg>
+						</div>
+						<div class="how__to-item-wrapper">
+							<div class="how__to-item">
+								<div class="img"><img src="img/1.png" alt=""></div>
+								<div class="txt">
+									<p>1. Вимийте руки перед тим, як готувати дитині суміш</p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/2.png" alt=""></div>
+								<div class="txt">
+									<p>2. Ретельно вимийте пляшечку, соску та кришечку, щоб усунути залишки молока. Прокип’ятіть їх протягом 5 хвилин та залишайте накритими до використання. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/3.png" alt=""></div>
+								<div class="txt">
+									<p>3. Прокип’ятіть питну воду протягом 10 хвилин та остудіть до 40 С.
+										<br> <span>Чому важливо остудити до зазначеної температури? </span>
+										<br> Для збереженя кількості живих корисних бактерій у готовій суміші. І тільки після охолодження до 40 С можна додавати суху суміш.</p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/4.png" alt=""></div>
+								<div class="txt">
+									<p>4. Відповідно до таблиці годування виберіть вік дитини та додайте необхідну точну кількість теплої води в прокип’ячену пляшечку. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/5.png" alt=""></div>
+								<div class="txt">
+									<p>5. Використовуйте лише мірну ложку, яка знаходиться в банці. Ложка повинна бути заповнена без гірки. Відповідно до таблиці годування, додайте точну кількість мірних ложок порошку згідно віку дитини. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/6.png" alt=""></div>
+								<div class="txt">
+									<p>6. Ретельно збовтайте пляшечку до повного розчинення порошку. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/7.png" alt=""></div>
+								<div class="txt">
+									<p>7. Спробуйте суміш за температурою.</p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/8.png" alt=""></div>
+								<div class="txt">
+									<p>8. Під час годування необхідно підтримувати дитину, щоб вона не захлинулась. Коли дитина підросте, переходьте на годування з чашки. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/9.png" alt=""></div>
+								<div class="txt">
+									<p>9. Після приготування суміші, банку з порошком слід щільно закрити і зберігати в сухому прохолодному місці. Після відкриття пакування, продукт слід використати протягом 3-х тижнів. </p>
+								</div>
+							</div>
+							<div class="how__to-item">
+								<div class="img"><img src="img/10.png" alt=""></div>
+								<div class="txt">
+									<p>10. Готова суміш, що залишилася після годування, не повинна зберігатися і використовуватися в подальшому. </p>
+								</div>
+							</div>
+							<div class="how__to-item opacity__block">
+								<div class="wrapp">
+									<div class="img"><img src="img/10.png" alt=""></div>
+									<div class="txt">
+										<p>10. Готова суміш, що залишилася після годування, не повинна зберігатися і використовуватися в подальшому. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video">
+						<a class="video__link" href="https://youtu.be/APt-MZ_mfc8">
+							<picture>
+								<source srcset="https://i.ytimg.com/vi_webp/APt-MZ_mfc8/maxresdefault.webp" type="image/webp"> <img class="video__media" src="https://i.ytimg.com/vi/APt-MZ_mfc8/maxresdefault.jpg" alt="Приготовление молочной смеси VITAPRIM"> </picture>
+						</a>
+						<button class="video__button" aria-label="Запустить видео">
+							<svg width="68" height="48" viewBox="0 0 68 48">
+								<path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+								<path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+							</svg>
+						</button>
+					</div>
+					<div class="disclaimer">
+						<p>Важливо!
+							<br> VITAPRIM за грудне вигодовування! VITAPRIM повністю підтримує грудне вигодовування у відповідності до рекомендацій ВООЗ!</p>
+						<p>Ідеальним харчуванням для грудної дитини є молоко матері. Перед тим, як вирішити вигодовувати дитину із застосуванням замінника грудного молока, порадьтеся з Вашим педіатром. </p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="assets/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
