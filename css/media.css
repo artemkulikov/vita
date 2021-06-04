@@ -689,6 +689,11 @@
 		width: 65%;
 		font-size: 16px;
 	}
+	
+	.instruction .instruction__wrapper .warning__txt{
+   		width: 65%;
+  
+  	}
 
 	.how__to .container .bg .vector1 {
 		display: none;
