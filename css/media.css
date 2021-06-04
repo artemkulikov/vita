@@ -50,7 +50,7 @@
 	.header {
 		padding: 20px 0;
 	}
-  
+
 	.menu__container .nav {
 		height: 80%;
 		padding-top: 180px;
@@ -176,9 +176,9 @@
 		width: 70%;
 	}
 
-	.shop .container .shop__wrapper .card .card__wrapper {
+	/* .shop .container .shop__wrapper .card .card__wrapper {
 		font-size: 20px;
-	}
+	} */
 
 	.shop .container .shop__wrapper .card .buy__btn {
 		font-size: 25px;
@@ -481,11 +481,7 @@
 		width: 80px;
 		height: 80px;
 	}
-
-	.shop .container .shop__wrapper .card:hover .blue {
-		background-color: #00acc4;
-	}
-
+  
 	.shop .container .shop__wrapper .card:hover .pink {
 		background-color: #ca94b3;
 	}
@@ -497,6 +493,11 @@
 	.shop .container .shop__wrapper .card:hover .card__btn {
 		color: #fff;
 		border: 2px dashed #fff;
+	}
+  .shop .container .shop__wrapper .card:hover .blue {
+    background-color: #00acc4 !important;
+    color: #fff !important;
+    border-color: #fff !important;
 	}
 
 	.shop .container .shop__wrapper .card .card__wrapper .card__img {

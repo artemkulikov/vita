@@ -77,6 +77,7 @@ $(document).ready(function(){
       $(".card__wrapper.pink, .card__wrapper.green").css("background-color", "");
       $(".card__btn.blue").css("border", "2px dashed #fff");
       $(".card__btn.blue").css("color", "#fff");
+      $(".card__btn.blue").css("background-color", "#00acc4");
       $(".card__btn.pink, .card__btn.green").css("border", "");
       $(".card__btn.pink, .card__btn.green").css("color", "");
   });
@@ -88,12 +89,15 @@ $(document).ready(function(){
     $('.table1').addClass('closed');
     $('.table1, .table3').removeClass('opened');
     $(".card__wrapper.pink").css("background-color", "#ca94b3");
-    $(".card__wrapper.pink").css("background-color", "#ca94b3");
-    $(".card__wrapper.blue, .card__wrapper.green").css("background-color", "");
+    $(".card__wrapper.green").css("background-color", "");
     $(".card__btn.pink").css("border", "2px dashed #fff");
     $(".card__btn.pink").css("color", "#fff");
-    $(".card__btn.blue, .card__btn.green").css("border", "");
-    $(".card__btn.blue, .card__btn.green").css("color", "");
+    $(".card__btn.green").css("border", "");
+    $(".card__btn.green").css("color", "");
+    $(".card__wrapper.blue").css("background-color", "#fff");
+    $(".card__btn.blue").css("background-color", "#fff");
+    $(".card__btn.blue").css("color", "#0071A2");
+    $(".card__btn.blue").css("border-color", "#0071A2");
   });
 });
 
@@ -106,8 +110,12 @@ $(document).ready(function(){
     $(".card__wrapper.blue, .card__wrapper.pink").css("background-color", "");
     $(".card__btn.green").css("border", "2px dashed #fff");
     $(".card__btn.green").css("color", "#fff");
-    $(".card__btn.pink, .card__btn.blue").css("border", "");
-    $(".card__btn.pink, .card__btn.blue").css("color", "");
+    $(".card__btn.pink").css("border", "");
+    $(".card__btn.pink").css("color", "");
+    $(".card__wrapper.blue").css("background-color", "#fff");
+    $(".card__btn.blue").css("background-color", "#fff");
+    $(".card__btn.blue").css("color", "#0071A2");
+    $(".card__btn.blue").css("border-color", "#0071A2");
   });
 });
 

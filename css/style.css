@@ -521,7 +521,20 @@ section {
 	background-color: #fff;
 	border-radius: 15px;
 	padding: 0 0 3px 0;
-  /* font-size: 16px; */;
+}
+
+.shop .container .shop__wrapper .card .card__wrapper.blue{
+  background-color: #00acc4;
+}
+
+.shop .container .shop__wrapper .card .card__wrapper.blue:hover{
+  background-color: #00acc4 !important;
+}
+
+.shop .container .shop__wrapper .card .card__wrapper .card__btn.blue{
+  background: #00acc4;
+  color: #fff;
+  border-color: #fff;
 }
 
 .shop .container .shop__wrapper .card .card__wrapper .card__top {
