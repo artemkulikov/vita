@@ -352,8 +352,9 @@ section {
 	margin: 7px auto;
 	width: 150px;
 }
-.counter__value .container .tabs #feedings{
-  width: 100px;
+
+.counter__value .container .tabs #feedings {
+	width: 100px;
 }
 
 .counter__value .container .tab .value {
@@ -523,18 +524,18 @@ section {
 	padding: 0 0 3px 0;
 }
 
-.shop .container .shop__wrapper .card .card__wrapper.blue{
-  background-color: #00acc4;
+.shop .container .shop__wrapper .card .card__wrapper.blue {
+	background-color: #00acc4;
 }
 
-.shop .container .shop__wrapper .card .card__wrapper.blue:hover{
-  background-color: #00acc4 !important;
+.shop .container .shop__wrapper .card .card__wrapper.blue:hover {
+	background-color: #00acc4 !important;
 }
 
-.shop .container .shop__wrapper .card .card__wrapper .card__btn.blue{
-  background: #00acc4;
-  color: #fff;
-  border-color: #fff;
+.shop .container .shop__wrapper .card .card__wrapper .card__btn.blue {
+	background: #00acc4;
+	color: #fff;
+	border-color: #fff;
 }
 
 .shop .container .shop__wrapper .card .card__wrapper .card__top {
@@ -573,7 +574,7 @@ section {
 	border-radius: 30px;
 	padding: 2px 0;
 	margin: 5px;
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .shop .container .shop__wrapper .card .buy__btn {
@@ -644,13 +645,12 @@ section {
 	font-size: 15px;
 }
 
-.instruction .instruction__wrapper .warning__txt{
-  color: #fff;
+.instruction .instruction__wrapper .warning__txt {
+	color: #fff;
 	text-shadow: 2px 2px 4px #ca94b3;
 	padding: 10px 0;
 	line-height: 22px;
 	font-size: 20px;
-
 }
 
 .table1 {
@@ -668,7 +668,6 @@ section {
 .table1.opened, .table2.opened, .table3.opened {
 	display: block;
 }
-
 
 .instruction .instruction__wrapper table th, .instruction .instruction__wrapper table td {
 	padding: 5px 2px;

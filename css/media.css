@@ -481,7 +481,7 @@
 		width: 80px;
 		height: 80px;
 	}
-  
+
 	.shop .container .shop__wrapper .card:hover .pink {
 		background-color: #ca94b3;
 	}
@@ -494,10 +494,11 @@
 		color: #fff;
 		border: 2px dashed #fff;
 	}
-  .shop .container .shop__wrapper .card:hover .blue {
-    background-color: #00acc4 !important;
-    color: #fff !important;
-    border-color: #fff !important;
+
+	.shop .container .shop__wrapper .card:hover .blue {
+		background-color: #00acc4 !important;
+		color: #fff !important;
+		border-color: #fff !important;
 	}
 
 	.shop .container .shop__wrapper .card .card__wrapper .card__img {
@@ -686,9 +687,9 @@
 		font-size: 16px;
 	}
 
-  .instruction .instruction__wrapper .warning__txt{
-    width: 65%;
-   }
+	.instruction .instruction__wrapper .warning__txt {
+		width: 65%;
+	}
 
 	.how__to .container .bg .vector1 {
 		display: none;
