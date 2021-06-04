@@ -353,6 +353,11 @@ section {
 	width: 130px;
 }
 
+.counter__value .container .tabs #feedings{
+  width: 100px;
+}
+
+
 .counter__value .container .tab .value {
 	border: 2px dashed #fff;
 	border-radius: 10px;
