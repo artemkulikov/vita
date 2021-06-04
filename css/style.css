@@ -84,7 +84,7 @@ section {
 
 .header .container .header__logo .header__logo-img {
 	width: 90px;
-	padding: 0 0 40px 0;
+	margin: 0 0 40px 0;
 }
 
 .menu__container {
@@ -350,13 +350,11 @@ section {
 	border-radius: 10px;
 	padding: 7px 0;
 	margin: 7px auto;
-	width: 130px;
+	width: 150px;
 }
-
 .counter__value .container .tabs #feedings{
   width: 100px;
 }
-
 
 .counter__value .container .tab .value {
 	border: 2px dashed #fff;
@@ -639,6 +637,7 @@ section {
 	padding: 10px 0;
 	line-height: 22px;
 	font-size: 20px;
+
 }
 
 .table1 {

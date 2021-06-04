@@ -50,12 +50,7 @@
 	.header {
 		padding: 20px 0;
 	}
-
-	.header .container .header__logo .header__logo-img {
-		width: 140px;
-		padding: 0 0 40px 0;
-	}
-
+  
 	.menu__container .nav {
 		height: 80%;
 		padding-top: 180px;
@@ -689,11 +684,10 @@
 		width: 65%;
 		font-size: 16px;
 	}
-	
-	.instruction .instruction__wrapper .warning__txt{
-   		width: 65%;
-  
-  	}
+
+  .instruction .instruction__wrapper .warning__txt{
+    width: 65%;
+   }
 
 	.how__to .container .bg .vector1 {
 		display: none;
