@@ -628,6 +628,14 @@ section {
 	font-size: 15px;
 }
 
+.instruction .instruction__wrapper .warning__txt{
+  color: #fff;
+	text-shadow: 2px 2px 4px #ca94b3;
+	margin: 10px 0;
+	line-height: 22px;
+	font-size: 20px;
+}
+
 .table1 {
 	display: block;
 }
