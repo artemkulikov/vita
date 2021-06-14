@@ -161,6 +161,12 @@ section {
 	overflow: auto;
 }
 
+.menu__container .nav .nav__list{
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+
 .menu__container .nav .nav__list .nav__list-item {
 	text-align: center;
 	margin: 0 0 20px 0;
@@ -184,8 +190,8 @@ section {
 
 .menu__container .nav .nav__list .nav__item-link:hover {
 	background-color: #00c7e1;
-	-webkit-box-shadow: 0px 5px 19px 8px rgba(10, 83, 139, 0.25);
-	box-shadow: 0px 5px 19px 8px rgba(10, 83, 139, 0.25);
+	-webkit-box-shadow: 0px 0px 35px 11px rgba(255,255,255,0.46); 
+	box-shadow: 0px 0px 35px 11px rgba(255,255,255,0.46);
 }
 
 .menu__container .nav .nav__list .twostring {
@@ -751,6 +757,10 @@ section {
 	margin-top: -200px;
 }
 
+.how__to .container .video .footer__kid{
+	display: none;
+}
+
 .how__to .container .video__link {
 	position: absolute;
 	top: 0;
@@ -811,9 +821,22 @@ section {
 	display: block;
 }
 
+.how__to .container .disclaimer{
+	position: relative;
+}
+
+.how__to .container .disclaimer img{
+	display: none;
+}
+
 .how__to .container .disclaimer p {
 	color: #00719e;
 	padding: 10px 0;
 	line-height: 22px;
 	font-size: 20px;
+}
+
+
+.descrip  svg{
+display: none;
 }

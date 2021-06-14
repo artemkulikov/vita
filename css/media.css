@@ -523,6 +523,21 @@
 		border: 4px solid #fff;
 		border-radius: 30px;
 	}
+
+	.how__to .container .disclaimer img{
+		display: block;
+		position: absolute;
+		left: 110%;
+		top: -155%;
+		width: 50%;
+	}
+	.how__to .container .video .footer__kid{
+		display: block;
+		position: absolute;
+		left: -45%;
+		top: 80%;
+		width: 40%;
+	}
 }
 
 @media screen and (min-width: 1199.99px) {
@@ -629,8 +644,17 @@
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		position: relative;
 		font-size: 18px;
 		height: 9rem;
+	}
+
+	.offer__section .container .descrip svg{
+		display: block;
+		position: absolute;
+	width: 10%;
+	left: 45%;
+	top: 20%;
 	}
 
 	.offer__section .container .descrip .descrip__title {
@@ -647,11 +671,10 @@
 		line-height: 23px;
 		background-color: #ca94b3;
 		border: 4px solid #fff;
-		border-right: 2px solid #fff;
 		border-radius: 10px;
 		width: 50%;
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
+		margin-right: 35px;
+		font-size: 17px;
 	}
 
 	.offer__section .container .descrip .descrip__txt {
@@ -668,11 +691,8 @@
 		line-height: 20px;
 		background-color: #ca94b3;
 		border: 4px solid #fff;
-		border-left: 2px solid #fff;
 		border-radius: 10px;
 		width: 50%;
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
 	}
 
 	.instruction .instruction__wrapper img {
