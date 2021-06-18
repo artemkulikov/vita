@@ -191,7 +191,7 @@ section {
 .menu__container .nav .nav__list .nav__item-link:hover {
 	background-color: #00c7e1;
 	-webkit-box-shadow: 0px 0px 35px 11px rgba(255,255,255,0.46); 
-	box-shadow: 0px 0px 35px 11px rgba(255,255,255,0.46);
+	box-shadow: 0px 0px 5px 5px rgb(255 255 255 / 46%);
 }
 
 .menu__container .nav .nav__list .twostring {
