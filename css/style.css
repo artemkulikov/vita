@@ -232,10 +232,10 @@ section {
 	content: ' ▼';
   }
   
-  .lang__btn .dropdown .dropdown-content {
+   .lang__btn .dropdown .dropdown-content {
 	display: none;
 	position: absolute;
-	top: 115%;
+	top: 119%;
 	background-color: #00acc4;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
