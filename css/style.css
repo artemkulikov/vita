@@ -232,7 +232,7 @@ section {
 	content: ' ▼';
   }
   
-   .lang__btn .dropdown .dropdown-content {
+  .lang__btn .dropdown .dropdown-content {
 	display: none;
 	position: absolute;
 	top: 119%;
